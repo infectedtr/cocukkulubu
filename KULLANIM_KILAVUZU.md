@@ -1,4 +1,4 @@
-# Zübeyde Hanım Çocuk Kulübü & DÖSE Aidat Takip Sistemi
+# Çocuk Kulübü & DÖSE Aidat Takip Sistemi
 ## Kapsamlı Kullanım Kılavuzu (v1.3.0)
 
 Bu kılavuz, Kulüp ve Döner Sermaye (DÖSE) aidatlarının, banka ekstrelerinin ve öğrenci takibinin tek bir sistem üzerinden hatasız ve kolay bir şekilde yönetilmesini sağlayan "Aidat Takip Sistemi"nin detaylı kullanımını açıklamaktadır.
@@ -149,4 +149,4 @@ C: Modlar tamamen ayrıdır. DÖSE için belirlenen aidat ücretlerini ayarlamak
 
 ---
 
-**Teknik Destek ve Sürüm:** *v1.3.0 - Zübeyde Hanım KMTAL Bilişim Teknolojileri Alanı tarafından geliştirilmiştir.*
+**Teknik Destek ve Sürüm:** *v1.3.0 - infectedTR tarafından geliştirilmiştir.*
