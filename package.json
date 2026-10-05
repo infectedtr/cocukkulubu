@@ -1,0 +1,48 @@
+{
+  "name": "aidattakip",
+  "version": "1.6.0",
+  "description": "Zübeyde Hanım Çocuk Kulübü Aidat Takip Sistemi",
+  "main": "main.js",
+  "author": "S.Gultekin KADAYIFCI <sgkadayifci@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infectedtr/cocukkulubu.git"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "start-desktop": "electron .",
+    "build-desktop": "electron-builder --win nsis"
+  },
+  "build": {
+    "appId": "com.zubeyde.aidattakip",
+    "productName": "Aidat Takip",
+    "electronVersion": "30.0.0",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Aidat Takip Sistemi"
+    }
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.9.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "multer": "^2.1.1",
+    "sql.js": "^1.10.3",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^26.15.3"
+  }
+}
